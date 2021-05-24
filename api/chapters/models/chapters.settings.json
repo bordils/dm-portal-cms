@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "chapters",
+  "info": {
+    "name": "chapters"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "header": {
+      "type": "richtext"
+    },
+    "actions": {
+      "via": "chapter",
+      "collection": "actions"
+    },
+    "deepdives": {
+      "via": "chapter",
+      "collection": "deepdives"
+    }
+  }
+}

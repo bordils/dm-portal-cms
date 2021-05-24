@@ -1,0 +1,52 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/deepdives",
+      "handler": "deepdives.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/deepdives/count",
+      "handler": "deepdives.count",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/deepdives/:id",
+      "handler": "deepdives.findOne",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "POST",
+      "path": "/deepdives",
+      "handler": "deepdives.create",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/deepdives/:id",
+      "handler": "deepdives.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/deepdives/:id",
+      "handler": "deepdives.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
