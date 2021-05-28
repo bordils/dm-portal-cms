@@ -37,6 +37,16 @@
     "chapter": {
       "via": "actions",
       "model": "chapters"
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": false,
+      "unique": false
     }
   }
 }

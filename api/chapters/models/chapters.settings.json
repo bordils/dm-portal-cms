@@ -26,6 +26,14 @@
         }
       }
     },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
     "header": {
       "type": "richtext",
       "pluginOptions": {

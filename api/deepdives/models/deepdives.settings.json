@@ -37,6 +37,14 @@
     "chapter": {
       "via": "deepdives",
       "model": "chapters"
+    },
+    "slug": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
