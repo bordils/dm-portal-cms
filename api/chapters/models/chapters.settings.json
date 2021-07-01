@@ -42,10 +42,6 @@
         }
       }
     },
-    "actions": {
-      "via": "chapter",
-      "collection": "actions"
-    },
     "deepdives": {
       "via": "chapter",
       "collection": "deepdives"

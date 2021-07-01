@@ -2,7 +2,7 @@
   "kind": "collectionType",
   "collectionName": "actions",
   "info": {
-    "name": "Actions",
+    "name": "Action",
     "description": ""
   },
   "options": {
@@ -16,27 +16,14 @@
     }
   },
   "attributes": {
-    "title": {
-      "type": "string",
-      "required": true,
-      "unique": true,
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
-    "body": {
+    "intro_paragraph": {
       "type": "richtext",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
-    },
-    "chapter": {
-      "via": "actions",
-      "model": "chapters"
+      },
+      "required": true
     },
     "slug": {
       "pluginOptions": {
