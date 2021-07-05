@@ -47,6 +47,14 @@
       "config": {
         "policies": []
       }
+    },
+    {
+      "method": "GET",
+      "path": "/hello",
+      "handler": "card.index",
+      "config": {
+        "policies": []
+      }
     }
   ]
 }

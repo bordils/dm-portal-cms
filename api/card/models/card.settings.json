@@ -1,6 +1,6 @@
 {
   "kind": "collectionType",
-  "collectionName": "cards",
+  "collectionName": "card",
   "info": {
     "name": "Card",
     "description": ""
@@ -16,15 +16,6 @@
     }
   },
   "attributes": {
-    "catchline": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string",
-      "required": true
-    },
     "title": {
       "pluginOptions": {
         "i18n": {
@@ -34,13 +25,22 @@
       "type": "string",
       "required": true
     },
-    "body": {
+    "catchline": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
       },
-      "type": "richtext",
+      "type": "string",
+      "required": true
+    },
+    "text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text",
       "required": true
     },
     "image": {

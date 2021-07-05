@@ -5,4 +5,9 @@
  * to customize this controller
  */
 
-module.exports = {};
+module.exports = {
+    // GET /hello
+    async index(ctx) {
+        ctx.send('Hello World!');
+    },
+};

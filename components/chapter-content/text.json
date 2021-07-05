@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_chapter_content_text",
+  "info": {
+    "name": "text",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "text": {
+      "type": "text"
+    },
+    "columns": {
+      "type": "enumeration",
+      "enum": [
+        "one",
+        "two"
+      ],
+      "required": true,
+      "default": "one"
+    }
+  }
+}

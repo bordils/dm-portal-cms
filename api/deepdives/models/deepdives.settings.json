@@ -32,11 +32,8 @@
         "i18n": {
           "localized": true
         }
-      }
-    },
-    "chapter": {
-      "via": "deepdives",
-      "model": "chapters"
+      },
+      "required": true
     },
     "slug": {
       "pluginOptions": {
@@ -45,6 +42,21 @@
         }
       },
       "type": "string"
+    },
+    "media": {
+      "model": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }

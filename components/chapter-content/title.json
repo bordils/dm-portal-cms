@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_chapter_content_title",
+  "info": {
+    "name": "title",
+    "icon": "ad"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    }
+  }
+}
