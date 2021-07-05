@@ -78,6 +78,66 @@
     },
     "cards": {
       "collection": "card"
+    },
+    "about": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "required": true,
+      "default": "Worum geht’s hier?"
+    },
+    "item1": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "item2": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "item3": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "content_black": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "chapter-content.image",
+        "chapter-content.text",
+        "chapter-content.title"
+      ]
+    },
+    "content_white_last": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "dynamiczone",
+      "components": [
+        "chapter-content.image",
+        "chapter-content.text",
+        "chapter-content.title"
+      ]
     }
   }
 }
