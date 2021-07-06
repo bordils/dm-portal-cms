@@ -2,7 +2,8 @@
   "collectionName": "components_chapter_content_images",
   "info": {
     "name": "image",
-    "icon": "anchor"
+    "icon": "image",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -15,6 +16,9 @@
       "plugin": "upload",
       "required": true,
       "pluginOptions": {}
+    },
+    "caption": {
+      "type": "string"
     }
   }
 }
