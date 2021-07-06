@@ -138,6 +138,22 @@
         "chapter-content.text",
         "chapter-content.title"
       ]
+    },
+    "popup_title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "popup_text": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "text"
     }
   }
 }
