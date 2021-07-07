@@ -14,6 +14,16 @@ module.exports = {
                 columns: ['id', 'title', 'locale', 'published_at'],
             });
         
-        ctx.send(result.filter(e => e.attributes.published_at && e.attributes.locale === (ctx.query.locale ? ctx.query.locale : "en")));
+        const f = result.filter(e => e.attributes.published_at && e.attributes.locale === (ctx.query.locale ? ctx.query.locale : "en"));
+
+        ctx.send(f.map(entry => {
+            if (entry.content) {
+                delete entry.content;
+            }
+            if (entry.localizations) {
+                delete entry.localizations;
+            }
+            return entry;
+        }));
     }
 };
