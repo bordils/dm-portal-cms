@@ -11,8 +11,8 @@ module.exports = {
         const result = await strapi
             .query('chapters')            
             .model.fetchAll({
-                columns: ['title', 'locale', 'published_at']
-            })
+                columns: ['id', 'title', 'locale', 'published_at'],
+            });
         
         ctx.send(result.filter(e => e.attributes.published_at && e.attributes.locale === (ctx.query.locale ? ctx.query.locale : "en")));
     }
