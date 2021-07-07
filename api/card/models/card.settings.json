@@ -57,30 +57,6 @@
         }
       }
     },
-    "main_color": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "string",
-      "required": true,
-      "maxLength": 7,
-      "minLength": 7,
-      "default": "#f2d91a"
-    },
-    "secondary_color": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": false
-        }
-      },
-      "type": "string",
-      "default": "#9ff21a",
-      "required": true,
-      "maxLength": 7,
-      "minLength": 7
-    },
     "show_clock": {
       "pluginOptions": {
         "i18n": {

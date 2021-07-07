@@ -35,14 +35,6 @@
       },
       "required": true
     },
-    "slug": {
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      },
-      "type": "string"
-    },
     "media": {
       "model": "file",
       "via": "related",
