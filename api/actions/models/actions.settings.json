@@ -1,0 +1,102 @@
+{
+  "kind": "singleType",
+  "collectionName": "actions",
+  "info": {
+    "name": "Actions",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "TIPS to protect your data and your online identity"
+    },
+    "published": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Published"
+    },
+    "subline": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "intro": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "richtext"
+    },
+    "instagram_specials": {
+      "collection": "card"
+    },
+    "quickfire": {
+      "collection": "card"
+    },
+    "standards": {
+      "collection": "card"
+    },
+    "experts": {
+      "collection": "card"
+    },
+    "instagram_special_title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "INSTAGRAM SPECIAL"
+    },
+    "quickfire_title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "QUICKFIRE"
+    },
+    "standard_title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "STANDARD"
+    },
+    "expert_title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "EXPERT"
+    }
+  }
+}
