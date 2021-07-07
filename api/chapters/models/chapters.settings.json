@@ -146,6 +146,24 @@
         }
       },
       "type": "text"
+    },
+    "action_title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Aktionen"
+    },
+    "deepdive_title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "WEITERE INFORMATIONEN"
     }
   }
 }
