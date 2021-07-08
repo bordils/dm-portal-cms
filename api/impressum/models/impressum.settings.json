@@ -1,0 +1,33 @@
+{
+  "kind": "singleType",
+  "collectionName": "impressums",
+  "info": {
+    "name": "Impressum",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": false
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "content": {
+      "type": "dynamiczone",
+      "components": [
+        "chapter-content.title",
+        "chapter-content.text",
+        "chapter-content.image"
+      ],
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}
