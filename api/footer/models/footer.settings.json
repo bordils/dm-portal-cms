@@ -76,6 +76,22 @@
       },
       "type": "string",
       "default": "With editorial support:"
+    },
+    "impressum_title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    },
+    "privacy_title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
