@@ -173,6 +173,33 @@
       },
       "type": "string",
       "required": true
+    },
+    "next_chapter_button": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Nächstes Kapitel"
+    },
+    "back_to_overview_button": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Zurück zur Übersicht"
+    },
+    "ways_to_act_button": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Mehr Aktionen"
     }
   }
 }

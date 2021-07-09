@@ -51,6 +51,24 @@
         }
       },
       "type": "string"
+    },
+    "ways_to_act_button": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Mehr Aktionen"
+    },
+    "experience_button": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Zur Experience"
     }
   }
 }

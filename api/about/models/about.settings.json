@@ -28,6 +28,14 @@
         "chapter-content.text",
         "chapter-content.image"
       ]
+    },
+    "title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
