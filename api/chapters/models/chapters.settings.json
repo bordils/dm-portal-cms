@@ -26,14 +26,6 @@
         }
       }
     },
-    "header": {
-      "type": "richtext",
-      "pluginOptions": {
-        "i18n": {
-          "localized": true
-        }
-      }
-    },
     "content": {
       "pluginOptions": {
         "i18n": {
