@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/credits",
+      "handler": "credits.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/credits",
+      "handler": "credits.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/credits",
+      "handler": "credits.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
