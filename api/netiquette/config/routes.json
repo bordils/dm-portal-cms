@@ -1,0 +1,28 @@
+{
+  "routes": [
+    {
+      "method": "GET",
+      "path": "/netiquette",
+      "handler": "netiquette.find",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "PUT",
+      "path": "/netiquette",
+      "handler": "netiquette.update",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "DELETE",
+      "path": "/netiquette",
+      "handler": "netiquette.delete",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
