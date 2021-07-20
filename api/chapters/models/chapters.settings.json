@@ -192,6 +192,15 @@
       },
       "type": "string",
       "default": "Mehr Aktionen"
+    },
+    "published_prefix": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string",
+      "default": "Published -"
     }
   }
 }
