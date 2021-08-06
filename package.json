@@ -2,7 +2,7 @@
   "name": "datamirror-portal-strapi-cra",
   "private": true,
   "version": "0.1.0",
-  "description": "A Strapi application",
+  "description": "Your Data Mirror Portal CMS",
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
@@ -16,20 +16,20 @@
     "sqlite3": "5.0.0",
     "strapi": "^3.6.6",
     "strapi-admin": "^3.6.6",
-    "strapi-connector-bookshelf": "3.6.5",
+    "strapi-connector-bookshelf": "3.6.6",
     "strapi-plugin-content-manager": "^3.6.6",
     "strapi-plugin-content-type-builder": "^3.6.6",
-    "strapi-plugin-email": "3.6.5",
+    "strapi-plugin-email": "3.6.6",
     "strapi-plugin-i18n": "^3.6.6",
     "strapi-plugin-import-export-content": "^0.3.4",
     "strapi-plugin-upload": "^3.6.6",
     "strapi-plugin-users-permissions": "^3.6.6",
-    "strapi-provider-email-sendmail": "^3.6.5",
+    "strapi-provider-email-sendmail": "^3.6.6",
     "strapi-provider-upload-do": "^3.5.4",
-    "strapi-utils": "3.6.5"
+    "strapi-utils": "3.6.6"
   },
   "author": {
-    "name": "A Strapi developer"
+    "name": "Neeeu Spaces GmbH"
   },
   "strapi": {
     "uuid": "6d40e237-f929-435b-840c-b059addc9b42"
