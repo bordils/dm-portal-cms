@@ -2,8 +2,7 @@
   "kind": "singleType",
   "collectionName": "presses",
   "info": {
-    "name": "Press",
-    "description": ""
+    "name": "Press"
   },
   "options": {
     "increments": true,
@@ -17,25 +16,22 @@
   },
   "attributes": {
     "title": {
+      "type": "string",
+      "private": false,
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "string"
+      }
     },
     "content": {
+      "type": "dynamiczone",
+      "components": [],
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      },
-      "type": "dynamiczone",
-      "components": [
-        "chapter-content.title",
-        "chapter-content.text",
-        "chapter-content.image"
-      ]
+      }
     }
   }
 }
