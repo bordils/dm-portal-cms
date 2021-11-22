@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_geolocation_geolocations",
+  "info": {
+    "name": "geolocation",
+    "icon": "map-marked-alt"
+  },
+  "options": {},
+  "attributes": {
+    "geolocation_data": {
+      "type": "json"
+    }
+  }
+}

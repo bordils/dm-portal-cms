@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "maps",
+  "info": {
+    "name": "Map",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "map_page_text": {
+      "type": "string"
+    },
+    "Geolocation": {
+      "type": "component",
+      "repeatable": false,
+      "component": "geolocation.geolocation"
+    }
+  }
+}
