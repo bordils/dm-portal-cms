@@ -85,6 +85,16 @@
         }
       },
       "type": "text"
+    },
+    "awards": {
+      "type": "component",
+      "repeatable": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "component": "award.award"
     }
   }
 }
