@@ -97,6 +97,14 @@
       },
       "type": "string"
     },
+    "Video_link": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": false
+        }
+      },
+      "type": "string"
+    },
     "content_black": {
       "pluginOptions": {
         "i18n": {
@@ -175,6 +183,7 @@
       "type": "string",
       "default": "Nächstes Kapitel"
     },
+
     "back_to_overview_button": {
       "pluginOptions": {
         "i18n": {
