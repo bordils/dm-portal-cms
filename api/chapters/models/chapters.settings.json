@@ -100,7 +100,7 @@
     "Video_link": {
       "pluginOptions": {
         "i18n": {
-          "localized": false
+          "localized": true
         }
       },
       "type": "string"
@@ -183,7 +183,6 @@
       "type": "string",
       "default": "Nächstes Kapitel"
     },
-
     "back_to_overview_button": {
       "pluginOptions": {
         "i18n": {
@@ -210,6 +209,22 @@
       },
       "type": "string",
       "default": "Published -"
+    },
+    "Video_poster": {
+      "collection": "file",
+      "via": "related",
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "plugin": "upload",
+      "required": false,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     }
   }
 }
