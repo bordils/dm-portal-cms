@@ -225,6 +225,10 @@
           "localized": true
         }
       }
+    },
+    "quotes": {
+      "via": "chapter",
+      "collection": "quotes"
     }
   }
 }
