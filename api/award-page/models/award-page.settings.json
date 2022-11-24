@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "award_pages",
+  "info": {
+    "name": "award-page",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "awardPageTitle": {
+      "type": "string"
+    },
+    "AwardPageIntro": {
+      "type": "string"
+    },
+    "awards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "award.award"
+    }
+  }
+}

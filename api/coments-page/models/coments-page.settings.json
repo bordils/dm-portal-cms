@@ -1,0 +1,19 @@
+{
+  "kind": "singleType",
+  "collectionName": "coments_pages",
+  "info": {
+    "name": "QuotesPage",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "page_title": {
+      "type": "string"
+    }
+  }
+}
