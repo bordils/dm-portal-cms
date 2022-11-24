@@ -2,24 +2,24 @@
   "routes": [
     {
       "method": "GET",
-      "path": "/coments-page",
-      "handler": "coments-page.find",
+      "path": "/quotes-page",
+      "handler": "quotes-page.find",
       "config": {
         "policies": []
       }
     },
     {
       "method": "PUT",
-      "path": "/coments-page",
-      "handler": "coments-page.update",
+      "path": "/quotes-page",
+      "handler": "quotes-page.update",
       "config": {
         "policies": []
       }
     },
     {
       "method": "DELETE",
-      "path": "/coments-page",
-      "handler": "coments-page.delete",
+      "path": "/quotes-page",
+      "handler": "quotes-page.delete",
       "config": {
         "policies": []
       }

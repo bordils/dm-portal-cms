@@ -2,21 +2,23 @@
   "collectionName": "components_quotes_quotes",
   "info": {
     "name": "Quotes",
-    "icon": "align-left",
-    "description": ""
+    "icon": "bars"
   },
   "options": {},
   "attributes": {
+    "title": {
+      "type": "string"
+    },
     "quote": {
       "type": "text"
     },
     "author": {
       "type": "string"
     },
-    "biography": {
-      "type": "string"
+    "bio": {
+      "type": "text"
     },
-    "image": {
+    "img": {
       "collection": "file",
       "via": "related",
       "allowedTypes": [
@@ -27,9 +29,6 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
-    },
-    "title": {
-      "type": "string"
     }
   }
 }

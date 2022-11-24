@@ -1,6 +1,6 @@
 {
   "kind": "singleType",
-  "collectionName": "coments_pages",
+  "collectionName": "quotes_pages",
   "info": {
     "name": "QuotesPage",
     "description": ""
@@ -16,23 +16,23 @@
     }
   },
   "attributes": {
-    "page_title": {
-      "type": "string",
+    "PageTitle": {
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "type": "string"
     },
     "quotes": {
       "type": "component",
       "repeatable": true,
-      "component": "quotes.quotes",
       "pluginOptions": {
         "i18n": {
           "localized": true
         }
-      }
+      },
+      "component": "quotes.quotes"
     }
   }
 }
