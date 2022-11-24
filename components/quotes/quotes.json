@@ -2,12 +2,13 @@
   "collectionName": "components_quotes_quotes",
   "info": {
     "name": "Quotes",
-    "icon": "align-left"
+    "icon": "align-left",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "quote": {
-      "type": "string"
+      "type": "text"
     },
     "author": {
       "type": "string"
@@ -26,6 +27,9 @@
       "plugin": "upload",
       "required": false,
       "pluginOptions": {}
+    },
+    "title": {
+      "type": "string"
     }
   }
 }
