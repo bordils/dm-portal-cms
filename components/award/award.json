@@ -21,16 +21,16 @@
       "type": "string"
     },
     "body": {
-      "type": "string"
+      "type": "text"
     },
     "item0": {
-      "type": "string"
+      "type": "richtext"
     },
     "item1": {
-      "type": "string"
+      "type": "richtext"
     },
     "item2": {
-      "type": "string"
+      "type": "richtext"
     }
   }
 }
