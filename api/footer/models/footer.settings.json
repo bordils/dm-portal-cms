@@ -124,6 +124,14 @@
         }
       },
       "type": "string"
+    },
+    "credits_caption_ktwins": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
     }
   }
 }
